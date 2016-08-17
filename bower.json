@@ -15,14 +15,15 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7"
   },
- "overrides": {
+  "overrides": {
     "bootstrap": {
       "main": [
         "dist/js/bootstrap.js",
-        "dist/css/bootstrap.css",
-        "less/bootstrap.less"
+        "dist/css/bootstrap.css"
       ]
     }
   }

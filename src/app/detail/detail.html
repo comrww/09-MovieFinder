@@ -1,0 +1,34 @@
+
+
+
+
+<div class="jumbotron text-center">
+    <h1 style="color: purple;">Welcome to Movie Search</h1>
+</div>
+<!--Trying to get the serch results to print out to this page 
+so that we can verify the view is working properly-->
+<div style="background-color: lightslategrey; color: white;" class="jumbotron text-center col-lg-3">
+    <img style="float: left; padding: 10px;" src="{{detail.movieData.Poster}}">
+</div>
+<div class="col-lg-9">
+    <div style="background-color: black; color: white;" class="jumbotron">
+        <div style="margin: 60px;">
+        <h3>Title</h3>
+        <p>{{detail.movieData.Title}}</p>
+        <h3>Release Date</h3>
+        <p>{{detail.movieData.Released}}</p>
+        <h3>Rating</h3>
+        <p>{{detail.movieData.Rated}}</p>
+        <h3>Director</h3>
+        <p>{{detail.movieData.Director}}</p>
+        <h3>Runtime</h3>
+        <p>{{detail.movieData.Runtime}}</p>
+        <h3>Actors</h3>
+        <p>{{detail.movieData.Actors}}</p>
+        <h3>Plot</h3>
+        <p>{{detail.movieData.Plot}}</p>
+        <h3>Critic Rating</h3>
+        <p>MetaScore {{detail.movieData.Metascore}}, ImdbRating {{detail.movieData.imdbRating}}</p>
+        </div>
+    </div>
+</div>

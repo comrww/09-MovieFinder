@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Search</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body>
+    
+    <!-- This is where the Search/Detail results will show. -->
+        <div ui-view>
+           
+        </div>
+    
+    <pre>{{mCtrl | json}}</pre>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- inject:js -->
+    <script src="app/app.js"></script>
+    <script src="app/core/movie.factory.js"></script>
+    <script src="app/detail/movie.detail.controller.js"></script>
+    <script src="app/search/movie.controller.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
